@@ -4,3 +4,5 @@ scheb_two_factor:
     code_invalid: Der Bestätigungs-Code ist nicht korrekt.
     trusted: Dies ist ein vertrauenswürdiger Computer
     cancel: Abbrechen
+    challenge_message: Das Authentifizierungscode für %username% ist %challenge%.
+    temporary_failure: Der Authentifizierungsdienst ist momentan nicht verfügbar.

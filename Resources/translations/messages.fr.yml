@@ -4,3 +4,5 @@ scheb_two_factor:
     code_invalid: Le code de vérification n'est pas valide.
     trusted: Je suis sur un ordinateur de confiance
     cancel: Annuler
+    challenge_message: Le code d'authentification pour %username% est %challenge%.
+    temporary_failure: The authentification service is not available at the moment.
