@@ -9,7 +9,7 @@
 		<service id="scheb_two_factor.security.sms.provider" class="%scheb_two_factor.security.sms.provider.class%">
 			<tag name="scheb_two_factor.provider" alias="sms" />
 			<argument type="service" id="scheb_two_factor.backup_code_validator" />
-			<argument type="service" id="scheb_two_factor.security.sms.challenge_sender.nexmo" />
+			<argument type="service" id="%scheb_two_factor.sms.provider%" />
 			<argument type="service" id="templating" />
 			<argument>%scheb_two_factor.parameter_names.auth_code%</argument>
 			<argument>%scheb_two_factor.sms.digits%</argument>
